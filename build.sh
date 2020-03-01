@@ -8,4 +8,4 @@ if $(docker volume ls | grep -q docker-io-bench-volume); then
 fi
 echo -n "++ creating new volume... "
 docker volume create docker-io-bench-volume
-echon "done"
+echo "done"

@@ -2,8 +2,6 @@
 
 NUM_RUNS=3
 
-ulimit -n 10000
-
 cd /sysbench_host
 for ((i=1;i<=$NUM_RUNS;i++)); do
     echo -n "++ performing test $i: host directory... "
