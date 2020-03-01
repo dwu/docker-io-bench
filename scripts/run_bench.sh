@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUM_RUNS=3
+NUM_RUNS=${NUM_RUNS:-5}
 
 cd /sysbench_host
 for ((i=1;i<=$NUM_RUNS;i++)); do
